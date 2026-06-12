@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia Just Surprise — Barbearia em Curitiba (Cidade Industrial) | Corte, Barba e Navalhado</title>
+<meta name="description" content="Barbearia Just Surprise: barbearia premium na Cidade Industrial de Curitiba desde 2019. Corte, barba, navalhado e estética masculina. 4,8★ no Google. Agende pelo WhatsApp.">
+<meta name="keywords" content="barbearia Curitiba, barbearia Cidade Industrial, corte de cabelo masculino Curitiba, barba Curitiba, navalhado Curitiba, barbearia perto de mim, just surprise, estética masculina Curitiba">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Barbearia Just Surprise">
+<link rel="canonical" href="https://barbeariajustsurprise.com.br/">
+<link rel="icon" type="image/png" href="img/logo.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Barbearia Just Surprise — Barbearia em Curitiba">
+<meta property="og:description" content="Corte, barba e navalhado de verdade. 4,8★ no Google. Cidade Industrial, Curitiba — desde 2019.">
+<meta property="og:image" content="img/corte.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"HairSalon",
+  "name":"Barbearia Just Surprise",
+  "image":"https://barbeariajustsurprise.com.br/img/corte.jpg",
+  "description":"Barbearia premium na Cidade Industrial de Curitiba desde 2019. Corte, barba, navalhado e estética masculina.",
+  "@id":"https://barbeariajustsurprise.com.br",
+  "url":"https://barbeariajustsurprise.com.br",
+  "telephone":"+5541984058824",
+  "foundingDate":"2019",
+  "priceRange":"$$",
+  "address":{"@type":"PostalAddress","streetAddress":"R. Helena Nunes da Silva, 01","addressLocality":"Curitiba","addressRegion":"PR","postalCode":"81270-305","addressCountry":"BR"},
+  "geo":{"@type":"GeoCoordinates","latitude":-25.4582274,"longitude":-49.3473568},
+  "areaServed":{"@type":"City","name":"Curitiba"},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday"],"opens":"10:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"17:00"}
+  ],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"24"}
+}
+</script>
+
+<style>
+:root{
+  --ink:#0a0a0c; --ink2:#121214; --ink3:#1a1a1e;
+  --gold:#C9A24B; --gold2:#E7CC85; --cream:#F2ECDD; --muted:#9a958c; --line:rgba(242,236,221,.10);
+  --serif:'Cinzel',serif; --sans:'Montserrat',system-ui,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--cream);font-family:var(--sans);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--gold);color:var(--ink)}
+.wrap{width:100%;max-width:1240px;margin:0 auto;padding:0 clamp(1.2rem,5vw,3.5rem)}
+section{position:relative;padding:clamp(3.5rem,8vh,6.5rem) 0}
+.eyebrow{font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);display:inline-flex;align-items:center;gap:.7rem}
+.eyebrow::before{content:'';width:30px;height:1px;background:var(--gold);opacity:.7}
+.h-sect{font-family:var(--serif);font-weight:700;font-size:clamp(2rem,5vw,3.6rem);line-height:1.05;letter-spacing:.02em}
+.h-sect em{font-style:normal;color:var(--gold)}
+.lead{color:var(--muted);font-size:clamp(1rem,1.3vw,1.12rem);line-height:1.8;max-width:54ch}
+.bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(60% 50% at 80% 0%,rgba(201,162,75,.10),transparent 60%),radial-gradient(50% 50% at 0% 100%,rgba(201,162,75,.06),transparent 60%)}
+.shell{position:relative;z-index:1}
+.cur,.cur-r{position:fixed;top:0;left:0;border-radius:50%;z-index:9000;pointer-events:none;transform:translate(-50%,-50%);mix-blend-mode:difference}
+.cur{width:8px;height:8px;background:var(--gold)}
+.cur-r{width:38px;height:38px;border:1px solid rgba(201,162,75,.6);transition:width .3s var(--ease),height .3s var(--ease),background .3s}
+.cur-r.grow{width:64px;height:64px;background:rgba(201,162,75,.08)}
+@media (hover:none){.cur,.cur-r{display:none}}
+nav{position:fixed;top:0;left:0;width:100%;z-index:800;display:flex;align-items:center;justify-content:space-between;padding:1.4rem clamp(1.2rem,5vw,3.5rem);transition:.4s var(--ease);border-bottom:1px solid transparent}
+nav.scr{background:rgba(10,10,12,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:.9rem;padding-bottom:.9rem}
+.logo{display:flex;align-items:center}
+.logo img{height:54px;width:auto;display:block;border-radius:10px}
+.nav-r{display:flex;align-items:center;gap:2rem}
+.nav-menu{display:flex;gap:1.8rem;list-style:none}
+.nav-menu a{font-size:.82rem;font-weight:500;letter-spacing:.06em;color:var(--muted);transition:.25s;text-transform:uppercase}
+.nav-menu a:hover{color:var(--gold)}
+.nav-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:var(--ink);font-weight:700;font-size:.8rem;letter-spacing:.04em;padding:.7rem 1.4rem;border-radius:50px;transition:.3s}
+.nav-cta:hover{background:var(--gold2);box-shadow:0 10px 30px rgba(201,162,75,.3)}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}
+.burger span{width:26px;height:2px;background:var(--cream);transition:.3s}
+.burger.on span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.on span:nth-child(2){opacity:0}
+.burger.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mmenu{position:fixed;inset:0;z-index:790;background:var(--ink);display:flex;flex-direction:column;justify-content:center;gap:.4rem;padding:2.5rem;transform:translateY(-100%);transition:.5s var(--ease);visibility:hidden}
+.mmenu.on{transform:translateY(0);visibility:visible}
+.mmenu a{font-family:var(--serif);font-weight:700;font-size:1.8rem;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.mmenu .mc{margin-top:1.4rem;background:var(--gold);color:var(--ink);text-align:center;border-radius:50px;border:none;font-family:var(--sans);font-weight:700;font-size:1rem}
+.hero{min-height:100svh;display:flex;align-items:flex-start;position:relative;overflow:hidden;padding-top:clamp(7rem,17vh,11rem)}
+.hero-bg{position:absolute;inset:0;z-index:-1}
+.hero-bg img{width:100%;height:100%;object-fit:cover;filter:brightness(.4) saturate(1.05) contrast(1.05)}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,12,.72),rgba(10,10,12,.4) 40%,var(--ink) 96%)}
+.hero-in{position:relative}
+.hero-status{display:inline-flex;align-items:center;gap:.6rem;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cream);border:1px solid var(--line);border-radius:50px;padding:.45rem 1rem;margin-bottom:1.8rem;opacity:0}
+.hero-status .dot{width:8px;height:8px;border-radius:50%;background:#3fcf8e;box-shadow:0 0 10px #3fcf8e}
+.hero h1{font-family:var(--serif);font-weight:900;font-size:clamp(3rem,12vw,8rem);line-height:.92;letter-spacing:.04em;color:var(--cream)}
+.hero h1 .o{display:block;overflow:hidden}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-sub{margin-top:1.4rem;font-size:clamp(1rem,1.5vw,1.3rem);color:var(--cream);letter-spacing:.2em;text-transform:uppercase;font-weight:300;opacity:0}
+.hero-act{margin-top:2.4rem;display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap;opacity:0}
+.btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--gold);color:var(--ink);font-weight:700;font-size:.92rem;letter-spacing:.03em;padding:1.05rem 2.1rem;border-radius:50px;transition:box-shadow .3s,background .3s}
+.btn:hover{background:var(--gold2);box-shadow:0 14px 40px rgba(201,162,75,.35)}
+.btn-ghost{background:transparent;border:1px solid var(--line);color:var(--cream)}
+.btn-ghost:hover{border-color:var(--gold);background:rgba(201,162,75,.06);box-shadow:none}
+.hero-rate{margin-top:2.2rem;display:flex;align-items:center;gap:.8rem;font-size:.86rem;color:var(--muted);opacity:0;flex-wrap:wrap}
+.hero-rate b{color:var(--gold);font-size:1.1rem}
+.stars{color:var(--gold);letter-spacing:.1em}
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.2rem 0;overflow:hidden;background:rgba(242,236,221,.012)}
+.mq-t{display:flex;gap:2.6rem;white-space:nowrap;width:max-content;animation:mq 26s linear infinite}
+.mq-t span{font-family:var(--serif);font-weight:700;font-size:clamp(1.1rem,2vw,1.7rem);color:rgba(242,236,221,.28);display:inline-flex;align-items:center;gap:2.6rem;text-transform:uppercase;letter-spacing:.1em}
+.mq-t span::after{content:'✂';color:var(--gold);opacity:.6;font-size:.8em}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.about-img{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;border:1px solid var(--line)}
+.about-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.95) saturate(1.05)}
+.about-img::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 120px rgba(0,0,0,.5)}
+.about-txt p{margin-top:1.6rem}
+.about-tags{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.7rem}
+.tag{font-size:.78rem;letter-spacing:.04em;color:var(--cream);border:1px solid var(--line);border-radius:50px;padding:.5rem 1.1rem}
+.tag.g{border-color:rgba(201,162,75,.4);color:var(--gold)}
+.svc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap;margin-bottom:3rem}
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem}
+.svc{display:flex;align-items:center;gap:1.4rem;border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.8rem;background:rgba(242,236,221,.012);transition:.35s var(--ease)}
+.svc:hover{border-color:rgba(201,162,75,.4);transform:translateY(-4px);background:rgba(201,162,75,.04)}
+.svc .ic{font-size:1.8rem;width:54px;height:54px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px;flex-shrink:0}
+.svc h4{font-family:var(--serif);font-weight:700;font-size:1.15rem;letter-spacing:.02em}
+.svc p{font-size:.84rem;color:var(--muted);margin-top:.2rem}
+.svc-note{margin-top:1.6rem;font-size:.9rem;color:var(--muted)}
+.svc-note b{color:var(--gold)}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:240px;gap:1rem;margin-top:3rem}
+.gal a{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.gal a:nth-child(1){grid-row:span 2}
+.gal a:nth-child(4){grid-column:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease),filter .5s;filter:brightness(.86) saturate(1)}
+.gal a:hover img{transform:scale(1.08);filter:brightness(1) saturate(1.08)}
+.gal a::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.55),transparent 55%)}
+.rev-top{display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap;margin-bottom:2.6rem}
+.rev-score{font-family:var(--serif);font-weight:900;font-size:4rem;color:var(--gold);line-height:1}
+.rev-meta .stars{font-size:1.3rem}
+.rev-meta p{font-size:.88rem;color:var(--muted);margin-top:.3rem}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+.rev{border:1px solid var(--line);border-radius:16px;padding:1.8rem;background:rgba(242,236,221,.012)}
+.rev .stars{font-size:.9rem;margin-bottom:1rem}
+.rev p{font-size:1rem;line-height:1.55;color:var(--cream)}
+.rev .who{margin-top:1.2rem;font-size:.82rem;color:var(--muted);font-weight:600}
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;align-items:stretch}
+.loc-info{border:1px solid var(--line);border-radius:18px;padding:clamp(1.8rem,4vw,3rem);background:rgba(242,236,221,.012)}
+.loc-row{display:flex;gap:1rem;padding:1.2rem 0;border-bottom:1px solid var(--line)}
+.loc-row:last-of-type{border-bottom:none}
+.loc-row .ic{color:var(--gold);font-size:1.3rem;flex-shrink:0}
+.loc-row b{display:block;font-family:var(--serif);font-weight:700;font-size:1rem;letter-spacing:.02em;margin-bottom:.2rem}
+.loc-row span{font-size:.9rem;color:var(--muted)}
+.loc-map{border-radius:18px;overflow:hidden;border:1px solid var(--line);min-height:340px}
+.loc-map iframe{width:100%;height:100%;min-height:340px;border:0;filter:grayscale(.3) invert(.92) hue-rotate(180deg) contrast(.9)}
+.cta{text-align:center}
+.cta h2{font-family:var(--serif);font-weight:900;font-size:clamp(2.2rem,6vw,4.4rem);line-height:1.02;letter-spacing:.02em}
+.cta h2 em{font-style:normal;color:var(--gold)}
+.cta .lead{margin:1.6rem auto 2.4rem;text-align:center}
+.cta-note{margin-top:1.4rem;font-size:.8rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:3.5rem 0 2.4rem}
+.foot-top{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:2.5rem;margin-bottom:3rem}
+.foot-brand img{height:96px;width:auto;margin-bottom:1rem;border-radius:14px}
+.foot-brand p{color:var(--muted);font-size:.9rem;line-height:1.7;max-width:34ch}
+.foot-col h5{font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem}
+.foot-col a,.foot-col p{display:block;font-size:.9rem;color:var(--muted);margin-bottom:.6rem;transition:.25s}
+.foot-col a:hover{color:var(--gold)}
+.foot-bot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-top:1px solid var(--line);padding-top:2rem;font-size:.78rem;color:var(--muted)}
+.foot-bot a{color:var(--gold)}
+.wfab{position:fixed;right:1.4rem;bottom:1.4rem;z-index:700;width:58px;height:58px;border-radius:50%;background:#22c55e;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(34,197,94,.45);transition:transform .3s}
+.wfab:hover{transform:scale(1.08)}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media (max-width:920px){
+  .nav-menu{display:none}.nav-cta{display:none}.burger{display:flex}
+  .hero h1{letter-spacing:.02em}
+  .about-grid,.loc-grid{grid-template-columns:1fr}
+  .svc-grid,.rev-grid{grid-template-columns:1fr}
+  .gal{grid-template-columns:1fr 1fr;grid-auto-rows:200px}
+  .gal a:nth-child(1){grid-row:span 1}.gal a:nth-child(4){grid-column:span 2}
+  .foot-top{grid-template-columns:1fr;gap:1.8rem}
+}
+@media (max-width:560px){
+  body{cursor:auto}.gal{grid-template-columns:1fr;grid-auto-rows:230px}
+  .gal a:nth-child(4){grid-column:span 1}
+}
+</style>
+</head>
+<body>
+<div class="bg-fx"></div>
+<div class="cur" id="cur"></div><div class="cur-r" id="curR"></div>
+<div class="shell">
+
+<nav id="nav">
+  <a href="#top" class="logo" data-cur><img src="img/logo.png" alt="Barbearia Just Surprise — Curitiba"></a>
+  <div class="nav-r">
+    <ul class="nav-menu">
+      <li><a href="#sobre" data-cur>A barbearia</a></li>
+      <li><a href="#servicos" data-cur>Serviços</a></li>
+      <li><a href="#avaliacoes" data-cur>Avaliações</a></li>
+      <li><a href="#local" data-cur>Onde estamos</a></li>
+    </ul>
+    <a href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" class="nav-cta" data-cur data-mag>Agendar horário</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mmenu" id="mmenu">
+  <a href="#sobre">A barbearia</a><a href="#servicos">Serviços</a><a href="#avaliacoes">Avaliações</a><a href="#local">Onde estamos</a>
+  <a href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" class="mc">Agendar pelo WhatsApp →</a>
+</div>
+
+<header class="hero" id="top">
+  <div class="hero-bg"><img src="img/hero.jpg" alt="Barbearia Just Surprise em Curitiba"></div>
+  <div class="wrap hero-in">
+    <div class="hero-status" id="hStatus"><span class="dot"></span> Agendamento · Ter a Sáb</div>
+    <h1 id="hTitle"><span class="o">Corte. Barba.</span><span class="o"><em>Navalhado.</em></span></h1>
+    <p class="hero-sub" id="hSub">Barbearia premium — Cidade Industrial, Curitiba</p>
+    <div class="hero-act" id="hAct">
+      <a href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" class="btn" data-cur data-mag>Agendar horário ↗</a>
+      <a href="#servicos" class="btn btn-ghost" data-cur>Ver serviços</a>
+    </div>
+    <div class="hero-rate" id="hRate"><span class="stars">★★★★★</span> <b>4,8</b> no Google · 24 avaliações · desde 2019</div>
+  </div>
+</header>
+
+<div class="mq">
+  <div class="mq-t">
+    <span>Corte</span><span>Barba</span><span>Navalhado</span><span>Estética Masculina</span><span>Cabelo &amp; Barba</span>
+    <span>Corte</span><span>Barba</span><span>Navalhado</span><span>Estética Masculina</span><span>Cabelo &amp; Barba</span>
+  </div>
+</div>
+
+<section id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-img reveal"><img src="img/cadeira.jpg" alt="Corte na Barbearia Just Surprise"></div>
+    <div class="about-txt">
+      <div class="eyebrow reveal">A barbearia</div>
+      <h2 class="h-sect reveal" style="margin-top:1rem">Desde 2019,<br>o corte <em>levado a sério.</em></h2>
+      <p class="lead reveal">Na Just Surprise, cada cliente sai como entrou: querendo voltar. Corte clássico, barba na navalha, contorno desenhado e aquele acabamento que faz a diferença. Um ambiente pensado pro homem que valoriza o cuidado bem feito — na Cidade Industrial de Curitiba.</p>
+      <p class="lead reveal">William e equipe atendem com hora marcada. Não é só aparar o cabelo — é a experiência completa.</p>
+      <div class="about-tags reveal">
+        <span class="tag g">★ 4,8 no Google</span>
+        <span class="tag">Desde 2019</span>
+        <span class="tag">Atendimento com agendamento</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <div class="eyebrow reveal">Serviços</div>
+        <h2 class="h-sect reveal" style="margin-top:1rem">O que fazemos<br><em>por você.</em></h2>
+      </div>
+      <p class="lead reveal">Padrão alto do começo ao fim. Escolha o seu e agende em segundos pelo WhatsApp.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal"><div class="ic">✂️</div><div><h4>Corte</h4><p>Tesoura, máquina e acabamento na navalha.</p></div></div>
+      <div class="svc reveal"><div class="ic">🧔</div><div><h4>Barba</h4><p>Toalha quente, navalha e hidratação.</p></div></div>
+      <div class="svc reveal"><div class="ic">🪒</div><div><h4>Navalhado &amp; Desenho</h4><p>Contorno e traços desenhados na régua.</p></div></div>
+      <div class="svc reveal"><div class="ic">👑</div><div><h4>Cabelo &amp; Barba</h4><p>O combo completo — a experiência inteira.</p></div></div>
+    </div>
+    <p class="svc-note reveal"><b>Valores e agendamento direto no WhatsApp.</b> Também fazemos estética masculina — chama que a gente monta o melhor pra você.</p>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="wrap">
+    <div class="eyebrow reveal">Galeria</div>
+    <h2 class="h-sect reveal" style="margin-top:1rem">O resultado <em>fala por si.</em></h2>
+    <div class="gal">
+      <a href="#" data-cur class="reveal"><img src="img/corte.jpg" alt="Desenho e corte na Just Surprise"></a>
+      <a href="#" data-cur class="reveal"><img src="img/barba.jpg" alt="Corte e barba na Just Surprise"></a>
+      <a href="#" data-cur class="reveal"><img src="img/detalhe.jpg" alt="Fade e contorno na Just Surprise"></a>
+      <a href="#" data-cur class="reveal"><img src="img/navalha.jpg" alt="Acabamento na navalha"></a>
+      <a href="#" data-cur class="reveal"><img src="img/hero.jpg" alt="Ambiente da Barbearia Just Surprise"></a>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacoes">
+  <div class="wrap">
+    <div class="rev-top reveal">
+      <div class="rev-score">4,8</div>
+      <div class="rev-meta">
+        <div class="stars">★★★★★</div>
+        <p>24 avaliações reais no Google</p>
+      </div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev reveal"><div class="stars">★★★★★</div><p>"A melhor de Curitiba ❤️"</p><div class="who">— Cliente Google</div></div>
+      <div class="rev reveal"><div class="stars">★★★★★</div><p>"Parabéns pelo atendimento, William é um excelente profissional."</p><div class="who">— Stoney C.</div></div>
+      <div class="rev reveal"><div class="stars">★★★★★</div><p>"Excelente atendimento e serviço."</p><div class="who">— Carlos P.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="local">
+  <div class="wrap">
+    <div class="eyebrow reveal">Onde estamos</div>
+    <h2 class="h-sect reveal" style="margin:1rem 0 2.4rem"><em>Te esperamos</em> na cadeira.</h2>
+    <div class="loc-grid">
+      <div class="loc-info reveal">
+        <div class="loc-row"><div class="ic">📍</div><div><b>Endereço</b><span>R. Helena Nunes da Silva, 01 — Cidade Industrial, Curitiba/PR</span></div></div>
+        <div class="loc-row"><div class="ic">🕒</div><div><b>Horário</b><span>Terça a sexta: 10h – 19h · Sábado: 10h – 17h</span></div></div>
+        <div class="loc-row"><div class="ic">📱</div><div><b>WhatsApp</b><span>(41) 98405-8824 · agendamento</span></div></div>
+        <div class="loc-row"><div class="ic">⭐</div><div><b>Avaliação</b><span>4,8 no Google · 24 avaliações · desde 2019</span></div></div>
+        <div style="margin-top:1.8rem;display:flex;gap:1rem;flex-wrap:wrap">
+          <a href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" class="btn" data-cur data-mag>Agendar horário ↗</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Barbearia+Just+Surprise+R.+Helena+Nunes+da+Silva+01+Curitiba" target="_blank" rel="noopener" class="btn btn-ghost" data-cur>Como chegar</a>
+        </div>
+      </div>
+      <div class="loc-map reveal">
+        <iframe loading="lazy" title="Mapa Barbearia Just Surprise" src="https://www.google.com/maps?q=R.+Helena+Nunes+da+Silva,+01+-+Cidade+Industrial+de+Curitiba,+Curitiba+-+PR,+81270-305&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contato">
+  <div class="wrap">
+    <div class="eyebrow reveal" style="justify-content:center;display:inline-flex">Bora?</div>
+    <h2 class="reveal" style="margin-top:1.2rem">Seu próximo corte<br>é na <em>Just Surprise.</em></h2>
+    <p class="lead reveal">Agenda pelo WhatsApp e garante seu horário. Rápido, fácil e sem fila.</p>
+    <a href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" class="btn reveal" data-cur data-mag style="font-size:1rem;padding:1.2rem 2.6rem">Agendar meu horário ↗</a>
+    <p class="cta-note reveal">(41) 98405-8824 · Cidade Industrial, Curitiba</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="img/logo.png" alt="Barbearia Just Surprise">
+        <p>Barbearia premium na Cidade Industrial de Curitiba desde 2019. Corte, barba e navalhado de verdade — 4,8★ no Google.</p>
+      </div>
+      <div class="foot-col"><h5>Menu</h5><a href="#sobre">A barbearia</a><a href="#servicos">Serviços</a><a href="#avaliacoes">Avaliações</a><a href="#local">Onde estamos</a></div>
+      <div class="foot-col"><h5>Contato</h5><a href="https://wa.me/5541984058824" target="_blank" rel="noopener">WhatsApp (41) 98405-8824</a><p>R. Helena Nunes da Silva, 01 — Curitiba/PR</p><p>Ter–Sex 10h-19h · Sáb 10h-17h</p></div>
+    </div>
+    <div class="foot-bot">
+      <p>© 2026 Barbearia Just Surprise · Curitiba, PR</p>
+      <p>Site por <a href="https://gustavodigital.online" target="_blank" rel="noopener">Gustavo Digital</a></p>
+    </div>
+  </div>
+</footer>
+</div>
+
+<a class="wfab" href="https://wa.me/5541984058824?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="WhatsApp" data-cur>
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function(){
+  var TOUCH=window.matchMedia('(hover:none)').matches;
+  var nav=document.getElementById('nav');
+  addEventListener('scroll',function(){nav.classList.toggle('scr',scrollY>40);},{passive:true});
+  var burger=document.getElementById('burger'),mm=document.getElementById('mmenu');
+  burger.addEventListener('click',function(){burger.classList.toggle('on');mm.classList.toggle('on');});
+  mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){burger.classList.remove('on');mm.classList.remove('on');});});
+
+  if(!TOUCH&&typeof gsap!=='undefined'){
+    var cur=document.getElementById('cur'),r=document.getElementById('curR');
+    var xT=gsap.quickTo(cur,'x',{duration:.12,ease:'power3'}),yT=gsap.quickTo(cur,'y',{duration:.12,ease:'power3'});
+    var rx=gsap.quickTo(r,'x',{duration:.4,ease:'power3'}),ry=gsap.quickTo(r,'y',{duration:.4,ease:'power3'});
+    addEventListener('mousemove',function(e){xT(e.clientX);yT(e.clientY);rx(e.clientX);ry(e.clientY);},{passive:true});
+    document.querySelectorAll('[data-cur]').forEach(function(el){
+      el.addEventListener('mouseenter',function(){r.classList.add('grow');});
+      el.addEventListener('mouseleave',function(){r.classList.remove('grow');});});
+    document.querySelectorAll('[data-mag]').forEach(function(el){
+      el.addEventListener('mousemove',function(e){var b=el.getBoundingClientRect();gsap.to(el,{x:(e.clientX-b.left-b.width/2)*.25,y:(e.clientY-b.top-b.height/2)*.35,duration:.4,ease:'power3'});});
+      el.addEventListener('mouseleave',function(){gsap.to(el,{x:0,y:0,duration:.6,ease:'elastic.out(1,.4)'});});});
+  }
+
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{threshold:.14});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+
+  function intro(){
+    if(typeof gsap==='undefined'){['hStatus','hSub','hAct','hRate'].forEach(function(id){var e=document.getElementById(id);if(e)e.style.opacity=1;});document.getElementById('hTitle').querySelectorAll('.o').forEach(function(o){o.style.opacity=1;});return;}
+    var tl=gsap.timeline();
+    gsap.set('#hTitle .o',{yPercent:110});
+    tl.to('#hStatus',{opacity:1,duration:.6,delay:.15})
+      .to('#hTitle .o',{yPercent:0,duration:1.0,ease:'power4.out',stagger:.1},'-=.25')
+      .to('#hSub',{opacity:1,duration:.8,ease:'power3.out'},'-=.6')
+      .to('#hAct',{opacity:1,duration:.8,ease:'power3.out'},'-=.6')
+      .to('#hRate',{opacity:1,duration:.8,ease:'power3.out'},'-=.6');
+  }
+  window.addEventListener('load',intro);
+  setTimeout(intro,1200);
+})();
+</script>
+</body>
+</html>
